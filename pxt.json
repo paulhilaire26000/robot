@@ -5,7 +5,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "pxt-mecanum-robot-V2": "github:lgm42/mecanum_robot_v2#490d2035b13465201cfad8730bc2bca5fa813bb3"
+        "pxt-mecanum-robot-V2": "github:lgm42/mecanum_robot_v2#5677f305aafe63cf4722b3f22241c709c2e5d981"
     },
     "files": [
         "main.blocks",
