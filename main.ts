@@ -35,4 +35,31 @@ basic.forever(function () {
     if (irRemote.isIrButtonPressed(IrButton.Hash)) {
         vitesse += 5
     }
+    if (irRemote.isIrButtonPressed(IrButton.Number_1)) {
+        vitesse = 20
+    }
+    if (irRemote.isIrButtonPressed(IrButton.Number_2)) {
+        vitesse = 30
+    }
+    if (irRemote.isIrButtonPressed(IrButton.Number_3)) {
+        vitesse = 40
+    }
+    if (irRemote.isIrButtonPressed(IrButton.Number_4)) {
+        vitesse = 50
+    }
+    if (irRemote.isIrButtonPressed(IrButton.Number_5)) {
+        vitesse = 60
+    }
+    if (irRemote.isIrButtonPressed(IrButton.Number_6)) {
+        vitesse = 70
+    }
+    if (irRemote.isIrButtonPressed(IrButton.Number_7)) {
+        vitesse = 80
+    }
+    if (irRemote.isIrButtonPressed(IrButton.Number_8)) {
+        vitesse = 90
+    }
+    if (irRemote.isIrButtonPressed(IrButton.Number_9)) {
+        vitesse = 100
+    }
 })
