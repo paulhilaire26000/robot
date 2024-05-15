@@ -1,6 +1,10 @@
+input.onSound(DetectedSound.Loud, function () {
+    music.play(music.stringPlayable("C C C C C C C C ", 120), music.PlaybackMode.UntilDone)
+})
 mecanumRobotV2.initializeRobot()
 let vitesse = 50
 mecanumRobotV2.state()
+music.play(music.stringPlayable("C5 B A G F E D C ", 120), music.PlaybackMode.UntilDone)
 basic.forever(function () {
     if (irRemote.isIrButtonPressed(IrButton.Ok)) {
         mecanumRobotV2.state()
